@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526089881880",
+    "project_id": "e-commerc-a4162",
+    "storage_bucket": "e-commerc-a4162.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526089881880:android:630d374a93f5931482766d",
+        "android_client_info": {
+          "package_name": "com.example.e_commerc_sneaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526089881880-j7e3e228guvr6pdmuo9s8htb0m8s4ho8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsf9Y-WkkJGPsCNh7nV6TxgblLWy_yM8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526089881880-j7e3e228guvr6pdmuo9s8htb0m8s4ho8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
