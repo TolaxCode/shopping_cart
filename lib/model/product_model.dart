@@ -18,6 +18,8 @@ class ProductModel {
       'unit': unit,
     };
   }
+
+  void add(ProductModel product) {}
 }
 
 List<ProductModel> product = [

@@ -49,7 +49,7 @@ class _NikePageState extends State<NikePage> {
         debugPrint(error.toString());
       });
     }
-
+   
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -132,7 +132,6 @@ class _NikePageState extends State<NikePage> {
                       Padding(
                         padding: EdgeInsets.only(
                           left: width * 0.01,
-                          top: height * 0.009,
                         ),
                         child: Text(
                           '\$ ${product[index].price}',
@@ -151,6 +150,7 @@ class _NikePageState extends State<NikePage> {
                             color: Colors.grey[700],
                             borderRadius: const BorderRadius.only(
                               topLeft: Radius.circular(10),
+                              bottomRight: Radius.circular(10),
                             ),
                           ),
                           child: const Icon(

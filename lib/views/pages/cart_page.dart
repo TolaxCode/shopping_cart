@@ -1,9 +1,6 @@
 import 'package:e_commerc_sneaker/constant/fonts.dart';
 import 'package:e_commerc_sneaker/controller/provider_controller.dart';
-import 'package:e_commerc_sneaker/model/product_model.dart';
-
 import 'package:flutter/material.dart';
-
 import 'package:provider/provider.dart';
 
 class CartPage extends StatelessWidget {
@@ -12,6 +9,7 @@ class CartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     CartProvider cartProvider = CartProvider();
+
     return Scaffold(
       appBar: AppBar(
         foregroundColor: Colors.black,
